@@ -2,10 +2,10 @@ package main
 
 import (
 	"fmt"
-	"github.com/jojco/go-test/utils"
+	"github.com/jojco/go-test/jq"
 )
 
 func main() {
 	fmt.Println("hello")
-	jojcoutils.GetEnvWithDefault("wef", "wef")
+	jq.GetEnvWithDefault("wef", "wef")
 }

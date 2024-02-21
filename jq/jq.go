@@ -1,4 +1,4 @@
-package jojcoutils
+package jq
 
 import (
 	"log"
